@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/userItemRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userProfileImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/userProfileImageView"
+        android:layout_toRightOf="@+id/userProfileImageView"
+        android:text="@string/user_name"
+        android:textSize="20sp" />
+
+    <!--status on image-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/statusOnImageView"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/userNameTextView"
+        android:layout_marginStart="-15dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/userProfileImageView"
+        android:layout_toRightOf="@+id/userProfileImageView"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"
+        app:civ_border_color="#32CD32"
+        app:civ_border_width="10dp" />
+    <!--status off image-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/statusOffImageView"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/userNameTextView"
+        android:layout_marginStart="-15dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/userProfileImageView"
+        android:layout_toRightOf="@+id/userProfileImageView"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"
+        app:civ_border_color="#bfbfbf"
+        app:civ_border_width="10dp" />
+</RelativeLayout>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">client</string>
+
+
+    <!--main activity value-->
+    <string name="user_name">user name</string>
+    <string name="user_name_taken">user name taken!</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="chat">Chat!</string>
+
+
 </resources>
