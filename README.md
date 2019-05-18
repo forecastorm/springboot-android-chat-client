@@ -4,7 +4,7 @@
 
 ## What is it?
 
-An adroid chat app backend in springboot. Supports user status, instant text messaging. 
+An adroid chat app backend in springboot. You can get the backend code [here](https://github.com/Fnil/springboot-android-chat-server). Supports user status, instant text messaging. 
 
 
 
@@ -16,6 +16,18 @@ Good starting template for anyone that is interested in building their own chat 
 
 ## How to use?
 
-Server is already running on AWS, just download and use. See complete springboot backend code [here](https://github.com/Fnil/springboot-android-chat-server).
+Server is already running on AWS, just download the code and you should be able to access the server. See complete springboot backend code [here](https://github.com/Fnil/springboot-android-chat-server).
 
 Change [Internet Address](https://github.com/Fnil/springboot-android-chat-client/blob/master/app/src/main/java/com/nil/client/config/InternetAddress.java) to your own internet address if you want to build your own. 
+
+```java
+package com.nil.client.config;
+public class InternetAddress {
+    
+    public static final String webSocketAddress = "ws://ec2-13-59-82-93.us-east-2.compute.amazonaws.com:8080/my-ws/websocket";
+
+    public static final String volleyUserPostAddress = "http://ec2-13-59-82-93.us-east-2.compute.amazonaws.com:8080/api/users/post";
+}
+
+
+```
