@@ -8,9 +8,7 @@ An adroid chat app backend in springboot. Supports user status, instant text mes
 
 
 
-<img src="https://github.com/Fnil/springboot-android-chat-client/blob/master/screenshot/demo1.gif?raw=true" alt="A screenshot illustratrating the UI of the app" width="150" style="display: inline; "/>
-
-<img src="https://github.com/Fnil/springboot-android-chat-client/blob/master/screenshot/demo2.gif?raw=true" alt="A screenshot illustratrating the UI of the app" width="150" style="display: inline; "/>
+<img src="https://github.com/Fnil/springboot-android-chat-client/blob/master/screenshot/demo1.gif?raw=true" alt="A screenshot illustratrating the UI of the app" width="150" style="display: inline; "/> <img src="https://github.com/Fnil/springboot-android-chat-client/blob/master/screenshot/demo2.gif?raw=true" alt="A screenshot illustratrating the UI of the app" width="150" style="display: inline; "/>
 
 ## Why?
 
