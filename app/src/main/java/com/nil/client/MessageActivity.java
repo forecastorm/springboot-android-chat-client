@@ -128,7 +128,7 @@ public class MessageActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if (messageEditText.getText().toString().equals("")) {
-                    Toast.makeText(MessageActivity.this, "You can not send emoty message", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MessageActivity.this, "You can not send empty message", Toast.LENGTH_SHORT).show();
                 } else {
                     chatDeliver = new ChatDeliver(currentUser.getId(), targetUser.getId(), messageEditText.getText().toString());
                     chatDeliver.connect(InternetAddress.webSocketAddress);
