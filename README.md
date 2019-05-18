@@ -15,3 +15,7 @@ An adroid chat app backend in springboot. Supports user status, instant text mes
 Good starting template for anyone that is interested in building their own chat app. Fast, compact, highly-customizable.
 
 ## How to use?
+
+Server is already running on AWS, just download and use. See complete springboot backend code [here](https://github.com/Fnil/springboot-android-chat-server).
+
+Change [Internet Address](https://github.com/Fnil/springboot-android-chat-client/blob/master/app/src/main/java/com/nil/client/config/InternetAddress.java) to your own internet address if you want to build your own. 
