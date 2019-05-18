@@ -8,7 +8,10 @@ An adroid chat app backend in springboot. Supports user status, instant text mes
 
 
 
-<img src="https://github.com/forecastorm/android-sign-up-minimum/blob/master/screenshots/demo.gif?raw=true" alt="A screenshot illustratrating the UI of the app" width="300" style="display: inline; "/>
+<img src="https://github.com/Fnil/springboot-android-chat-client/blob/master/screenshot/demo1.gif?raw=true" alt="A screenshot illustratrating the UI of the app" width="150" style="display: inline; "/>
+
+<img src="https://github.com/Fnil/springboot-android-chat-client/blob/master/screenshot/demo2.gif?raw=true" alt="A screenshot illustratrating the UI of the app" width="150" style="display: inline; "/>
+
 ## Why?
 
 Good starting template for anyone that is interested in building their own chat app. Fast, compact, highly-customizable.
